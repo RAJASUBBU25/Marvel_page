@@ -1,0 +1,901 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a, button{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+.nav_links{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(9, 1fr);
+    padding-top: 10px;
+}
+
+.nav_links a{
+    font-size: 18px;
+    padding: 0px 9px
+}
+
+.nav_links a:hover{
+    color:  rgb(97, 176, 202);
+    transition: 0.4s ease;
+}
+
+.mar_img{
+    padding-left: 25px;
+    height: 35px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.li1{
+    padding-left: 4px;
+    text-align: center;
+    vertical-align: middle;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#li1_ a{
+    color:rgb(97, 176, 202);;
+}
+
+#li1_ a:hover{
+    color:rgba(97, 176, 202, 0.6);
+    transition: 0.4s ease;
+}
+
+.li2{
+    text-align: center;    
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.li3{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.li4{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 5;
+}
+
+.li5{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 6;
+}
+
+.li6{
+    width: 200px;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 7;
+}
+
+#li7{
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    padding: 0px 9px;
+    color: gold;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 8; 
+}
+
+#li7:hover{
+    color: goldenrod;
+    transition: 0.4s ease;
+}
+
+.soon1{
+    padding-left: 100px;
+    margin-top: 100px;
+    font-size: 50px;
+    height: 362px;
+    color: white;
+    font-family: "Montserrat", sans-serif;;
+}
+
+body{
+    background-color: #24252A;
+}
+
+.ind{
+    padding-top: 30px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 57px;
+}
+
+.main_page{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-image: url(../MARVEL_PAGE/Icons/back1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.cont2{
+    grid-row: 1;
+    grid-column: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    font-weight: bold;
+}
+
+.img_main{
+    margin-left: 60px;
+    align-self: center;
+    height: 150px;
+    grid-row: 1 / 3;
+    grid-column: 2;
+}
+
+.para1{
+    grid-row: 3 / 5;
+    grid-column: 1 / 4;
+}
+
+.para1 p{
+    font-size: large;
+}
+
+.para2{
+    margin-bottom: 10px;
+}
+
+.cont_3{
+    background-color: rgb(255, 228, 196, 0.2);
+    margin-top: 20px;
+    display: grid;
+    height: 680px;
+}
+
+.up_m{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.up_m img{
+    height: 220px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hhh{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    grid-row: 1;
+}
+
+.up_m img:hover{
+    transform: translateY(-7px);
+    transition: 0.3s ease;
+}
+
+.um1{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.um2{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.um3{
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.um4{
+    grid-row: 2;
+    grid-column: 4;  
+}
+
+.um5{
+    grid-row: 2;
+    grid-column: 5;
+}
+
+.ut1{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.ut2{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.ut3{
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.ut4{
+    grid-row: 4;
+    grid-column: 4;  
+}
+
+.ut5{
+    grid-row: 4;
+    grid-column: 5;
+}
+
+.up_t{
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.up_t img{
+    height: 220px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.up_t img:hover{
+    transform: translateY(-7px);
+    transition: 0.3s ease;
+}
+
+.main_page1{
+    margin-top: 40px;
+    height: 240px;
+}
+
+.cont1{
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+    height: 100%;
+    grid-row: 1;
+    grid-column: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cont1 div{
+    text-align: center;
+}
+
+.cont1 h1{
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+.cont1 p{
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cont1 div{
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 200px;
+    width: 90%;
+    background-color: rgba(240, 248, 255, 0.8);
+    border-radius: 20px;
+}
+
+.b1{
+    grid-row: 1;
+    grid-column: 1;;
+}
+
+.b2{
+    grid-row: 1;
+    grid-column: 2;
+
+}
+
+.b3{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.b4{
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.foot{
+    display: grid;
+    grid-template-rows: 3;
+}
+
+.foot h1{
+    color:bisque;
+}
+
+.h_main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.h_1{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.h_2{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.h_3{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.h_4{
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.h_5{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.h_6{
+    grid-row: 2;
+    grid-column:2;
+}
+
+.h_7{
+    grid-row: 2;
+    grid-column:3;
+}
+
+.h_8{
+    grid-row: 2;
+    grid-column:4;
+}
+
+.h_9{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.h_10{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.h_11{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.h_12{
+    grid-row: 3;
+    grid-column: 4;
+}
+
+.h_13{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.h_14{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.h_15{
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.h_16{
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.h_17{
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.h_18{
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.h_19{
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.h_20{
+    grid-row: 5;
+    grid-column: 4;
+}
+
+.h_21{
+    grid-row: 6;
+    grid-column: 1;
+}
+
+.h_22{
+    grid-row: 6;
+    grid-column: 2;
+}
+
+.h_23{
+    grid-row: 6;
+    grid-column: 3;
+}
+
+.h_24{
+    grid-row: 6;
+    grid-column: 4;
+}
+
+.h_main img{
+    height: 175px;
+}
+
+.h_main img:hover{
+    transform: translateY(-5px);
+    transition: 0.5s ease;
+}
+
+.h_main div{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.h_main div:hover{
+    color: rgb(97, 176, 202);
+}
+
+.m_body h1{
+    font-family: sans-serif;
+    color: white;
+}
+
+.Mo_main{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: bisque;
+    padding-left: 300px;
+}
+
+.Mo_main th{
+    padding-right: 70px;
+}
+
+.tv_main{
+    margin-top: 60px;
+    margin-bottom: 66px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: bisque;
+    padding-left: 300px;
+}
+
+.tv_main th{
+    padding-right: 100px;
+}
+
+td{
+    color: whitesmoke;
+}
+
+.v_main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.v_1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.v_2{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.v_3{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.v_4{
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.v_5{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.v_6{
+    grid-row: 2;
+    grid-column:2;
+}
+
+.v_7{
+    grid-row: 2;
+    grid-column:3;
+}
+
+.v_8{
+    grid-row: 2;
+    grid-column:4;
+}
+
+.v_9{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.v_10{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.v_11{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.v_12{
+    grid-row: 3;
+    grid-column: 4;
+}
+
+.v_13{
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.v_14{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.v_15{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.v_16{
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.v_main img{
+    height: 150px;
+}
+
+.v_main img:hover{
+    transform: translateY(-5px);
+    transition: 0.5s ease;
+}
+
+.v_main div{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.v_main div:hover{
+    color: rgb(97, 176, 202);
+}
+
+.container{
+    padding-bottom: 40px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-image: url(../MARVEL_PAGE/Icons/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.sign1{
+    margin-top: 40px;
+    display: grid;
+    background-color: rgba(255, 255, 255,0.92);
+    grid-template-columns: repeat(3, 1fr);;
+    border-radius: 30px;
+    height: 370px;
+    grid-row: 3 / 6;
+    grid-column: 3 / 6;
+}
+
+.sign1 h2{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sign1 h3{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.up1{
+    margin-top: 20px;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.up2{
+    margin-top: 20px;
+    padding-left: 60px;
+    text-align: left;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.up3{
+    margin-top: 20px;
+    padding-left: 60px;
+    text-align: left;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.up4{
+    margin-top: 20px;
+    padding-left: 60px;
+    text-align: left;
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.sign1 input{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 15px;
+    font-size: 15px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+    font-family: "Montserrat", sans-serif;
+    border-width: 1.7px;
+    border-color: black;
+}
+
+.in1{
+    grid-row: 2;
+    grid-column: 2/ 4;
+}
+
+.in2{
+    grid-row: 3;
+    grid-column: 2/ 4;
+}
+
+.in3{
+    grid-row: 4;
+    grid-column: 2/ 4;
+}
+
+.sgn-div{
+    grid-row: 5;
+    grid-column: 2;
+    padding-left: 30px;
+}
+
+.sgn-up{
+    width: 120px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(34, 160, 192);
+    text-align: center;
+}
+
+.sgn-up:hover{
+    background-color: rgba(34, 160, 192, 0.6);
+    transition: background 0.3s linear;
+}
+
+.p1{
+    grid-row: 6;
+    grid-column: 2 / 4;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.p1:hover{
+    color: rgb(25, 126, 151);
+}
+
+.sign2{
+    height: 50px;
+    grid-row: 1;
+    grid-column: 3 / 6;
+}
+
+.sign3{
+    height: 50px;
+    grid-row: 7;
+    grid-column: 3 / 6;
+}
+
+
+.sgn-up{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.foot{
+    background-color: rgba(128, 128, 128, 0.55);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+
+.soc-icons{
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    grid-row: 1;
+    grid-column: 2;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.soc-icons img{
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 35px;
+}
+
+.soc-icons img:hover{
+    transform: translateY(-3px);
+    transition: 0.2s ease;
+}
+
+.soc1{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+    margin-bottom: 7px;
+    height: 18px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.icons_1{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.f_col1{
+    padding-left: 70px;
+    grid-row: 1;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.f_col1_1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.f_col1_2{
+    margin-top: 22px;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.f_col1_2 div{
+    height: 24px;
+    color: white;
+}
+
+.f_col1_2 div:hover{
+    text-decoration: underline;
+}
+
+.fimg{
+    padding-top: 90px;
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 8px;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.imgmrl{
+    padding-top: 25px;
+    height: 55px;
+}
+
+.f_col3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 3;
+    grid-row: 1;
+    height: 100px;
+}
+
+.f_col3 div{
+    text-align: left;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    height: 18px;
+    margin-top: 40px;
+    margin-left: 50px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.imgdisney{
+    grid-row: 1;
+    grid-column: 2;
+    height: 100px;
+}
+
+.pop{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+    
